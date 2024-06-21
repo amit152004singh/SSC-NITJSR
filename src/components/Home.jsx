@@ -1,9 +1,15 @@
-import React from 'react'
+
+import NavBar from './NavBar';
+import ProfessorWords from './ProfessorWords';
+
 
 const Home = () => {
   return (
-    <div className='bg-red-300'>Home</div>
-  )
-}
+    <>
+    <ProfessorWords/>
+    </>
+   
+  );
+};
 
-export default Home
+export default Home;
