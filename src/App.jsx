@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
+import Events from './components/Events';
 
 
 
@@ -12,6 +13,7 @@ const Layout = ({ children }) => (
   <>
     <NavBar />
     {children}
+    <Events/>
   </>
 );
 
