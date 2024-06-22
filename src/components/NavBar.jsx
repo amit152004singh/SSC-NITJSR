@@ -21,7 +21,7 @@ const NavBar = () => {
           className="mr-2 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased"
         >
           <img
-            src="../../public/logo-removebg.png"
+            src="/logo-removebg.png"
             className="object-scale-down h-32 w-full max-w-xl"
           ></img>
         </Link>
